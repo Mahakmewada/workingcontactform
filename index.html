@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form To Email Using JavaScript</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+    <div class = "contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class = "contact-left">
+             <div class = "contact-left-title">
+                <h2> Get In Touch</h2>
+                <hr>
+             </div>
+             <input type="hidden" name="access_key" value = "61660641-f20d-4581-b9f5-1608167066c0">
+             <input type = "text" name = "name" placeholder = "Your Name" class = "contact-inputs" required>
+             <input type = "email" name = "email" placeholder = "Your email" class = "contact-inputs" required>
+             <textarea name = "message" placeholder = "Your Message" class = "contact-inputs" required></textarea>
+             <button type = "submit"> Submit <img src = "assets/arrow_icon.png" alt = ""> </button>
+        </form> 
+        <div class = "contact-right">
+        <img src = "assets/right_img.png" alt = "">
+        </div>
+    </div>
+<!-- <div class = "container">
+    <form>
+       <h3> GET IN TOUCH</h3>
+       <input type = "text" id = "name" placeholder = "Your Name" required>
+       <input type = "Email" id = "Email" placeholder = "Email id" required>
+       <input type = "text" id = "phone" placeholder = "phone no." required>
+       <textarea id = "message" rows = "4" placeholder = "How Can We Help You?" ></textarea>
+       <button type = "submit"> Send </button>
+    </form>
+</div> -->
+
+</body>
+</html>
